@@ -1,0 +1,21 @@
+class Main { 
+    function void main() {
+    var int i, j, sum; 
+    var Array arr; 
+    let i = 0; 
+    let sum = 0; 
+    let arr = Array.new(5); 
+    while (i < 5) { 
+    let arr[i] = i * (i + 1);
+    let sum = sum + arr[i];
+     let i = i + 1;
+    } 
+    if ((sum > 10) & (sum < 100)) {
+         do Output.printString("Valid sum!"); 
+        } 
+    else {
+        do Output.printString("Invalid sum!"); 
+        } do Output.printInt(sum); 
+        return; 
+    } 
+} 
