@@ -1,5 +1,3 @@
-
-```markdown
 # Jack Compiler - Assignment 1 & 2
 
 A systematic implementation of a **Jack Language Compiler** built with **Rust**. This tool performs lexical and syntactic analysis to transform Jack source code into standardized XML representations.
@@ -84,4 +82,3 @@ The compiler generates two systematic files in the root directory:
 * **LL(2) Parsing**: Uses look-ahead logic to distinguish between plain identifiers, array entries, and subroutine calls[cite: 1].
 * **XML Escaping**: Automatically handles special characters like `&`, `<`, and `>` to ensure valid XML output.
 * **Recursive Descent**: Implements a dedicated method for every rule in the Jack grammar specification.
-```
